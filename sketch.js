@@ -81,7 +81,7 @@ helicopterSprite.x = helicopterSprite.x-20;
 helicopterSprite.x = helicopterSprite.x+20;
 }
 
-Matter.Body.translate(packageBody,{x: -20 ,y : 0});
+
 	
 if(keyCode ===DOWN_ARROW){
 Matter.Body.setStatic(packageBody, false);
